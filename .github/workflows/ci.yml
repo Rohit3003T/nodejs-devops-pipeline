@@ -1,0 +1,17 @@
+name: CI
+on : [push,pull_request]
+
+jobs:
+    tests:
+        runs-on: ubantu-latest
+        steps: 
+           - uses: actions/checkout@v4
+           - uses: actions/setup-nodev4
+             with:
+                node-version: 18
+           - run: npm ci
+           - run: npm test
+
+
+
+
