@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: project-node-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: project-node-app
+  template:
+    metadata:
+      labels:
+        app: project-node-app
+    spec:
+      containers:
+        - name: project-node-app
+          image: project-node-app:1.0
+          ports:
+            - containerPort: 3000
+
+
