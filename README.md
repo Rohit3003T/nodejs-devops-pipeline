@@ -1,8 +1,8 @@
-# Project: Node.js DevOps Learning 🚀
+# Project: nodejs-devops-pipeline 🚀
 
 Docker Image: `project-node-app`
 
-This repository is a **step-by-step DevOps learning project** using a simple Node.js application. Each step introduces key DevOps concepts, from local development to CI/CD, Docker, and Kubernetes.
+This repository is a **DevOps pipeline project** using a simple Node.js application. It covers local development, CI/CD, Docker, and Kubernetes deployment.
 
 ---
 
@@ -21,8 +21,8 @@ This repository is a **step-by-step DevOps learning project** using a simple Nod
 1. Clone the repository:
 
 ```bash
-git clone <repo-url>
-cd project-node-app
+git clone https://github.com/Rohit3003T/nodejs-devops-pipeline.git
+cd nodejs-devops-pipeline
 ```
 
 2. Install dependencies:
